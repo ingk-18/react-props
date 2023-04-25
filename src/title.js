@@ -1,9 +1,12 @@
 import React from 'react'
 
-const title = (props) => {
+const Title = ({ name, description }) => {
   return (
-    <div>{props.hoge}</div>
-  )
+    <div>
+      <h1>{name}</h1>
+      <p>{description}</p>
+    </div>
+  );
 }
 
-export default title
+export default Title
